@@ -66,7 +66,6 @@ function displayProducts(list){
 
         data += `
                 <tr>
-                    <td>${i}</td>
                     <td>${list[i].product_Name}</td>
                     <td>${list[i].product_Desc}</td>
                     <td>${list[i].product_Price}</td>

@@ -14,7 +14,7 @@
 <!-- Start Form Data -->
 
 
-    <div class="container bg-info mt-4 p-5">
+    <div class="container bg-info mt-4 py-5">
         <div class="form-group">
           <label for="productName">Product Name</label>
           <input type="text" class="form-control" id="productName" >
@@ -35,24 +35,22 @@
         
         
         <!-- Start Table Data  -->
-        <div class="container m-auto py-3">
-          <input onkeyup="searchProduct(this.value)" type="text" id="search" class="form-control" placeholder="search....">
-        </div>
-        <table class="table mt-5 bg-primary">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">Index(ID)</th>
-                <th scope="col">Product Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">Product Price</th>
-                <th scope="col">Delete</th>
-                <th scope="col">Update</th>
-              </tr>
-            </thead>
-            <tbody id="tableDataPro">
-              
-            </tbody>
+        <input onkeyup="searchProduct(this.value)" type="text" id="search" class="form-control mt-2" placeholder="search....">
+          <table class="table table-sm table-responsive-sm table-info my-3">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Product Name</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Product Price</th>
+                  <th scope="col">Delete</th>
+                  <th scope="col">Update</th>
+                </tr>
+              </thead>
+              <tbody id="tableDataPro">
+                
+              </tbody>
           </table>
+        
           
         
 
